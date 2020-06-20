@@ -1,7 +1,6 @@
-# iOSBaseProj
-iOS基础框架
-1.利用Xcode新建项目，统一使用mainProj
-2.进入项目文件夹，pod init 创建cocoaPods文件，并添加环境管理脚本
+##iOS基础框架
+### 1.利用Xcode新建项目，统一使用mainProj
+### 2.进入项目文件夹，pod init 创建cocoaPods文件，并添加环境管理脚本
   #环境宏定义
   #JHArchiveDebug
   #JHArchiveRelease
@@ -23,7 +22,7 @@ iOS基础框架
 
 在pod install 后每个pod添加的工程就会加上GCC_PREPROCESSOR_DEFINITIONS
 
-3.Xcode工程中添加环境管理的configurations
+### 3.Xcode工程中添加环境管理的configurations
 
 
 这里添加的环境有
@@ -36,12 +35,12 @@ demo演示，demo演示版本
 InHouse生产环境，企业版打包
 Appstore，正式AppStore发布版本
 
-4.根据每个configurations版本配置，独立配置包名，app名称，图标，等参数
+### 4.根据每个configurations版本配置，独立配置包名，app名称，图标，等参数
 添加preprocessor macros全局宏定义
 相应的就要创建各个环境所需的AppID，推送证书，App图标等
 
 特殊的appstore版本的话，新建一个InfoAppStore.plist文件，在发布AppStore版本的时候特殊处理下版本号
-5.切换环境：
+### 5.切换环境：
     1.这时候如果配置从Jenkins打包，我这里配置的是使用Git的不同分支区分环境，如在demo环境下，podfile文件使用JHArchiveDemo=1，xcode工程的configurations使用demo环境for command-line builds这样打包出来的就是demo环境了
     2.直接使用Xcode打包，首先也是修改podfile文件,然后在edit Scheme中选择archive改为对应的环境即可
 代码中就是直接使用宏定义判断版本即可
@@ -59,7 +58,7 @@ Appstore，正式AppStore发布版本
         // 生产环境
         [GeTuiSdk startSdkWithAppId:@"IdWcI0d3kk7En" appKey:@"QPCIisEKci9Aq8" appSecret:@"2xnPvNJ38J8Bc" delegate:self];
     #endif
-6.开发必须的一些工具
+### 6.开发必须的一些工具
     0.网络
 JHNetWorking：封装afnetworking
     1.httpmock
