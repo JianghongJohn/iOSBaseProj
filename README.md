@@ -22,10 +22,9 @@
   end
 ```
 在pod install 后每个pod添加的工程就会加上GCC_PREPROCESSOR_DEFINITIONS
-
+![1](https://github.com/JianghongJohn/iOSBaseProj/blob/master/1.jpg?raw=true)
 ### 3.Xcode工程中添加环境管理的configurations
-
-
+![2](https://github.com/JianghongJohn/iOSBaseProj/blob/master/2.jpg?raw=true)
 这里添加的环境有
 Debug环境，开发使用后端本地调式
 dev开发环境，开发内网环境
@@ -38,8 +37,9 @@ Appstore，正式AppStore发布版本
 
 ### 4.根据每个configurations版本配置，独立配置包名，app名称，图标，等参数
 添加preprocessor macros全局宏定义
+![3](https://github.com/JianghongJohn/iOSBaseProj/blob/master/3.jpg?raw=true)
 相应的就要创建各个环境所需的AppID，推送证书，App图标等
-
+![4](https://github.com/JianghongJohn/iOSBaseProj/blob/master/4.jpg?raw=true)
 特殊的appstore版本的话，新建一个InfoAppStore.plist文件，在发布AppStore版本的时候特殊处理下版本号
 ### 5.切换环境：
     1.这时候如果配置从Jenkins打包，我这里配置的是使用Git的不同分支区分环境，如在demo环境下，podfile文件使用JHArchiveDemo=1，xcode工程的configurations使用demo环境for command-line builds这样打包出来的就是demo环境了
