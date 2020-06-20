@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - Bugly (2.5.2)
+  - GYHttpMock (1.0.0)
+  - IQKeyboardManager (6.5.5)
+  - JHCommon (0.1.0):
+    - IQKeyboardManager (= 6.5.5)
+    - Masonry (= 1.1.0)
+  - JHNetWorking (0.1.0):
+    - AFNetworking/NSURLSession (~> 3.0)
+    - AFNetworking/Reachability (~> 3.0)
+    - AFNetworking/Security (~> 3.0)
+    - AFNetworking/Serialization (~> 3.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - Bugly
+  - GYHttpMock (from `https://github.com/Solve0/GYHttpMock.git`, tag `1.0.1`)
+  - JHCommon (from `../JHCommon`)
+  - JHNetWorking (from `../JHNetWorking`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Bugly
+    - IQKeyboardManager
+    - Masonry
+
+EXTERNAL SOURCES:
+  GYHttpMock:
+    :git: https://github.com/Solve0/GYHttpMock.git
+    :tag: 1.0.1
+  JHCommon:
+    :path: "../JHCommon"
+  JHNetWorking:
+    :path: "../JHNetWorking"
+
+CHECKOUT OPTIONS:
+  GYHttpMock:
+    :git: https://github.com/Solve0/GYHttpMock.git
+    :tag: 1.0.1
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Bugly: dbac48b55ad469a97cc4321045cd50df8f63d44f
+  GYHttpMock: b479480c5862603ce38d7d23973a73671c173dd2
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  JHCommon: 7d096bb49ea887121bb9826055bfe67c0b8a4336
+  JHNetWorking: ca2962245d84638c1c7eb77d77d1cf4a29353f31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: a1741e72a2c8c9619299915f60b1592d948d6d16
+
+COCOAPODS: 1.9.1

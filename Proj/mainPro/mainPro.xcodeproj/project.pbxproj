@@ -1,0 +1,1702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42FF5FFBDE2DF86AABBCF0DD /* libPods-mainProTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9D4573352B567DA6AB36E8 /* libPods-mainProTests.a */; };
+		50544551244955200090E320 /* JHHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 50544550244955200090E320 /* JHHttpMock.m */; };
+		50544554244955720090E320 /* replace.json in Resources */ = {isa = PBXBuildFile; fileRef = 50544553244955720090E320 /* replace.json */; };
+		50FFE2DD244828000029133A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FFE2DC244828000029133A /* AppDelegate.m */; };
+		50FFE2E0244828000029133A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FFE2DF244828000029133A /* SceneDelegate.m */; };
+		50FFE2E3244828000029133A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FFE2E2244828000029133A /* ViewController.m */; };
+		50FFE2E6244828000029133A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FFE2E4244828000029133A /* Main.storyboard */; };
+		50FFE2E8244828020029133A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FFE2E7244828020029133A /* Assets.xcassets */; };
+		50FFE2EB244828020029133A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FFE2E9244828020029133A /* LaunchScreen.storyboard */; };
+		50FFE2EE244828020029133A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FFE2ED244828020029133A /* main.m */; };
+		50FFE2F8244828020029133A /* mainProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FFE2F7244828020029133A /* mainProTests.m */; };
+		50FFE303244828020029133A /* mainProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FFE302244828020029133A /* mainProUITests.m */; };
+		77E1EA35B580E4ECACDEA90C /* libPods-mainPro-mainProUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1149BE5B119D27CAAC798A /* libPods-mainPro-mainProUITests.a */; };
+		8F8C2A025AD03718E9AF7465 /* libPods-mainPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E027BB212A38294D5509C2E /* libPods-mainPro.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50FFE2F4244828020029133A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50FFE2D0244827FF0029133A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50FFE2D7244828000029133A;
+			remoteInfo = mainPro;
+		};
+		50FFE2FF244828020029133A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50FFE2D0244827FF0029133A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50FFE2D7244828000029133A;
+			remoteInfo = mainPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046EFBD58EA9B0782B610C90 /* Pods-mainPro-mainProUITests.pre预发布.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro-mainProUITests.pre预发布.xcconfig"; path = "Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests.pre预发布.xcconfig"; sourceTree = "<group>"; };
+		0514AFF8E2DAB627A2AC8C88 /* Pods-mainPro-mainProUITests.demo演示.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro-mainProUITests.demo演示.xcconfig"; path = "Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests.demo演示.xcconfig"; sourceTree = "<group>"; };
+		1A42F0DDE1CB864287326FF9 /* Pods-mainProTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainProTests.appstore.xcconfig"; path = "Target Support Files/Pods-mainProTests/Pods-mainProTests.appstore.xcconfig"; sourceTree = "<group>"; };
+		1E027BB212A38294D5509C2E /* libPods-mainPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mainPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227EECF7767BC29AF2751536 /* Pods-mainPro-mainProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro-mainProUITests.debug.xcconfig"; path = "Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E1FED0EB94A8C9B57C7AFF0 /* Pods-mainProTests.inhouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainProTests.inhouse.xcconfig"; path = "Target Support Files/Pods-mainProTests/Pods-mainProTests.inhouse.xcconfig"; sourceTree = "<group>"; };
+		2F14BC075A7AF077EE2D6E02 /* Pods-mainPro-mainProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro-mainProUITests.release.xcconfig"; path = "Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33A7326E58DEF1C8C6BD2258 /* Pods-mainProTests.test质保.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainProTests.test质保.xcconfig"; path = "Target Support Files/Pods-mainProTests/Pods-mainProTests.test质保.xcconfig"; sourceTree = "<group>"; };
+		48D6823112FE8802C599066A /* Pods-mainPro.demo演示.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro.demo演示.xcconfig"; path = "Target Support Files/Pods-mainPro/Pods-mainPro.demo演示.xcconfig"; sourceTree = "<group>"; };
+		5054454F244955200090E320 /* JHHttpMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHHttpMock.h; sourceTree = "<group>"; };
+		50544550244955200090E320 /* JHHttpMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHHttpMock.m; sourceTree = "<group>"; };
+		50544553244955720090E320 /* replace.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = replace.json; sourceTree = "<group>"; };
+		50FFE2D8244828000029133A /* mainPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mainPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FFE2DB244828000029133A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50FFE2DC244828000029133A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50FFE2DE244828000029133A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		50FFE2DF244828000029133A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		50FFE2E1244828000029133A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50FFE2E2244828000029133A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50FFE2E5244828000029133A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50FFE2E7244828020029133A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50FFE2EA244828020029133A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50FFE2EC244828020029133A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FFE2ED244828020029133A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50FFE2F3244828020029133A /* mainProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mainProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FFE2F7244828020029133A /* mainProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainProTests.m; sourceTree = "<group>"; };
+		50FFE2F9244828020029133A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FFE2FE244828020029133A /* mainProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mainProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FFE302244828020029133A /* mainProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainProUITests.m; sourceTree = "<group>"; };
+		50FFE304244828020029133A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FFE330244832600029133A /* mainPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mainPro.entitlements; sourceTree = "<group>"; };
+		58E86FC9FA102F62BC00E1AF /* Pods-mainPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro.release.xcconfig"; path = "Target Support Files/Pods-mainPro/Pods-mainPro.release.xcconfig"; sourceTree = "<group>"; };
+		6C9D4573352B567DA6AB36E8 /* libPods-mainProTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mainProTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5CE704FC67FD7D16A3914B /* Pods-mainPro.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro.appstore.xcconfig"; path = "Target Support Files/Pods-mainPro/Pods-mainPro.appstore.xcconfig"; sourceTree = "<group>"; };
+		6F5BC8E3A50BB72C47F3DCB7 /* Pods-mainProTests.pre预发布.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainProTests.pre预发布.xcconfig"; path = "Target Support Files/Pods-mainProTests/Pods-mainProTests.pre预发布.xcconfig"; sourceTree = "<group>"; };
+		78C34693A27808C526804E24 /* Pods-mainPro-mainProUITests.test质保.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro-mainProUITests.test质保.xcconfig"; path = "Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests.test质保.xcconfig"; sourceTree = "<group>"; };
+		7926A5AC9D5A32FF48769599 /* Pods-mainPro-mainProUITests.dev开发.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro-mainProUITests.dev开发.xcconfig"; path = "Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests.dev开发.xcconfig"; sourceTree = "<group>"; };
+		8C3966F6B0C82DDADA541F9D /* Pods-mainProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainProTests.release.xcconfig"; path = "Target Support Files/Pods-mainProTests/Pods-mainProTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D00D8D5BF7EB872EBBD24E3 /* Pods-mainPro.test质保.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro.test质保.xcconfig"; path = "Target Support Files/Pods-mainPro/Pods-mainPro.test质保.xcconfig"; sourceTree = "<group>"; };
+		8F1E73C875851C92EECB4149 /* Pods-mainPro-mainProUITests.prod正式内测.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro-mainProUITests.prod正式内测.xcconfig"; path = "Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests.prod正式内测.xcconfig"; sourceTree = "<group>"; };
+		A3A353F1DD5981998FA23BAA /* Pods-mainProTests.dev开发.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainProTests.dev开发.xcconfig"; path = "Target Support Files/Pods-mainProTests/Pods-mainProTests.dev开发.xcconfig"; sourceTree = "<group>"; };
+		A7DDBC07CCA3F2547231072C /* Pods-mainPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro.debug.xcconfig"; path = "Target Support Files/Pods-mainPro/Pods-mainPro.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A733D8FDB92BB82BBC96F3 /* Pods-mainPro.dev开发.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro.dev开发.xcconfig"; path = "Target Support Files/Pods-mainPro/Pods-mainPro.dev开发.xcconfig"; sourceTree = "<group>"; };
+		B551982A59F274B9C0960A94 /* Pods-mainProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainProTests.debug.xcconfig"; path = "Target Support Files/Pods-mainProTests/Pods-mainProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C38C7AAFA1690EE228E369A1 /* Pods-mainPro.inhouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro.inhouse.xcconfig"; path = "Target Support Files/Pods-mainPro/Pods-mainPro.inhouse.xcconfig"; sourceTree = "<group>"; };
+		C46D72DF7826DEBD514FD908 /* Pods-mainProTests.demo演示.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainProTests.demo演示.xcconfig"; path = "Target Support Files/Pods-mainProTests/Pods-mainProTests.demo演示.xcconfig"; sourceTree = "<group>"; };
+		C660276BF5C9884A9E352560 /* Pods-mainPro-mainProUITests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro-mainProUITests.appstore.xcconfig"; path = "Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests.appstore.xcconfig"; sourceTree = "<group>"; };
+		D0613C49796B79EDF0B59E5F /* Pods-mainProTests.prod正式内测.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainProTests.prod正式内测.xcconfig"; path = "Target Support Files/Pods-mainProTests/Pods-mainProTests.prod正式内测.xcconfig"; sourceTree = "<group>"; };
+		D6053CEE45B23250A7A7C797 /* Pods-mainPro.pre预发布.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro.pre预发布.xcconfig"; path = "Target Support Files/Pods-mainPro/Pods-mainPro.pre预发布.xcconfig"; sourceTree = "<group>"; };
+		EE1149BE5B119D27CAAC798A /* libPods-mainPro-mainProUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mainPro-mainProUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29E2CEBEFA567339ABDD6B0 /* Pods-mainPro.prod正式内测.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro.prod正式内测.xcconfig"; path = "Target Support Files/Pods-mainPro/Pods-mainPro.prod正式内测.xcconfig"; sourceTree = "<group>"; };
+		FAA52D76B985FCF1244C12E1 /* Pods-mainPro-mainProUITests.inhouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mainPro-mainProUITests.inhouse.xcconfig"; path = "Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests.inhouse.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50FFE2D5244828000029133A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C2A025AD03718E9AF7465 /* libPods-mainPro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FFE2F0244828020029133A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FF5FFBDE2DF86AABBCF0DD /* libPods-mainProTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FFE2FB244828020029133A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E1EA35B580E4ECACDEA90C /* libPods-mainPro-mainProUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5054454E244954C10090E320 /* HttpMock */ = {
+			isa = PBXGroup;
+			children = (
+				505445522449555F0090E320 /* mockJson */,
+				5054454F244955200090E320 /* JHHttpMock.h */,
+				50544550244955200090E320 /* JHHttpMock.m */,
+			);
+			path = HttpMock;
+			sourceTree = "<group>";
+		};
+		505445522449555F0090E320 /* mockJson */ = {
+			isa = PBXGroup;
+			children = (
+				50544553244955720090E320 /* replace.json */,
+			);
+			path = mockJson;
+			sourceTree = "<group>";
+		};
+		50FFE2CF244827FF0029133A = {
+			isa = PBXGroup;
+			children = (
+				50FFE2DA244828000029133A /* mainPro */,
+				50FFE2F6244828020029133A /* mainProTests */,
+				50FFE301244828020029133A /* mainProUITests */,
+				50FFE2D9244828000029133A /* Products */,
+				804F62045200069C73B5E910 /* Pods */,
+				A4FCBB9484132619265989DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50FFE2D9244828000029133A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50FFE2D8244828000029133A /* mainPro.app */,
+				50FFE2F3244828020029133A /* mainProTests.xctest */,
+				50FFE2FE244828020029133A /* mainProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FFE2DA244828000029133A /* mainPro */ = {
+			isa = PBXGroup;
+			children = (
+				5054454E244954C10090E320 /* HttpMock */,
+				50FFE330244832600029133A /* mainPro.entitlements */,
+				50FFE2DB244828000029133A /* AppDelegate.h */,
+				50FFE2DC244828000029133A /* AppDelegate.m */,
+				50FFE2DE244828000029133A /* SceneDelegate.h */,
+				50FFE2DF244828000029133A /* SceneDelegate.m */,
+				50FFE2E1244828000029133A /* ViewController.h */,
+				50FFE2E2244828000029133A /* ViewController.m */,
+				50FFE2E4244828000029133A /* Main.storyboard */,
+				50FFE2E7244828020029133A /* Assets.xcassets */,
+				50FFE2E9244828020029133A /* LaunchScreen.storyboard */,
+				50FFE2EC244828020029133A /* Info.plist */,
+				50FFE2ED244828020029133A /* main.m */,
+			);
+			path = mainPro;
+			sourceTree = "<group>";
+		};
+		50FFE2F6244828020029133A /* mainProTests */ = {
+			isa = PBXGroup;
+			children = (
+				50FFE2F7244828020029133A /* mainProTests.m */,
+				50FFE2F9244828020029133A /* Info.plist */,
+			);
+			path = mainProTests;
+			sourceTree = "<group>";
+		};
+		50FFE301244828020029133A /* mainProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50FFE302244828020029133A /* mainProUITests.m */,
+				50FFE304244828020029133A /* Info.plist */,
+			);
+			path = mainProUITests;
+			sourceTree = "<group>";
+		};
+		804F62045200069C73B5E910 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7DDBC07CCA3F2547231072C /* Pods-mainPro.debug.xcconfig */,
+				58E86FC9FA102F62BC00E1AF /* Pods-mainPro.release.xcconfig */,
+				227EECF7767BC29AF2751536 /* Pods-mainPro-mainProUITests.debug.xcconfig */,
+				2F14BC075A7AF077EE2D6E02 /* Pods-mainPro-mainProUITests.release.xcconfig */,
+				B551982A59F274B9C0960A94 /* Pods-mainProTests.debug.xcconfig */,
+				8C3966F6B0C82DDADA541F9D /* Pods-mainProTests.release.xcconfig */,
+				C38C7AAFA1690EE228E369A1 /* Pods-mainPro.inhouse.xcconfig */,
+				48D6823112FE8802C599066A /* Pods-mainPro.demo演示.xcconfig */,
+				D6053CEE45B23250A7A7C797 /* Pods-mainPro.pre预发布.xcconfig */,
+				F29E2CEBEFA567339ABDD6B0 /* Pods-mainPro.prod正式内测.xcconfig */,
+				8D00D8D5BF7EB872EBBD24E3 /* Pods-mainPro.test质保.xcconfig */,
+				B0A733D8FDB92BB82BBC96F3 /* Pods-mainPro.dev开发.xcconfig */,
+				6D5CE704FC67FD7D16A3914B /* Pods-mainPro.appstore.xcconfig */,
+				FAA52D76B985FCF1244C12E1 /* Pods-mainPro-mainProUITests.inhouse.xcconfig */,
+				0514AFF8E2DAB627A2AC8C88 /* Pods-mainPro-mainProUITests.demo演示.xcconfig */,
+				046EFBD58EA9B0782B610C90 /* Pods-mainPro-mainProUITests.pre预发布.xcconfig */,
+				8F1E73C875851C92EECB4149 /* Pods-mainPro-mainProUITests.prod正式内测.xcconfig */,
+				78C34693A27808C526804E24 /* Pods-mainPro-mainProUITests.test质保.xcconfig */,
+				7926A5AC9D5A32FF48769599 /* Pods-mainPro-mainProUITests.dev开发.xcconfig */,
+				C660276BF5C9884A9E352560 /* Pods-mainPro-mainProUITests.appstore.xcconfig */,
+				2E1FED0EB94A8C9B57C7AFF0 /* Pods-mainProTests.inhouse.xcconfig */,
+				C46D72DF7826DEBD514FD908 /* Pods-mainProTests.demo演示.xcconfig */,
+				6F5BC8E3A50BB72C47F3DCB7 /* Pods-mainProTests.pre预发布.xcconfig */,
+				D0613C49796B79EDF0B59E5F /* Pods-mainProTests.prod正式内测.xcconfig */,
+				33A7326E58DEF1C8C6BD2258 /* Pods-mainProTests.test质保.xcconfig */,
+				A3A353F1DD5981998FA23BAA /* Pods-mainProTests.dev开发.xcconfig */,
+				1A42F0DDE1CB864287326FF9 /* Pods-mainProTests.appstore.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4FCBB9484132619265989DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E027BB212A38294D5509C2E /* libPods-mainPro.a */,
+				EE1149BE5B119D27CAAC798A /* libPods-mainPro-mainProUITests.a */,
+				6C9D4573352B567DA6AB36E8 /* libPods-mainProTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50FFE2D7244828000029133A /* mainPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FFE307244828020029133A /* Build configuration list for PBXNativeTarget "mainPro" */;
+			buildPhases = (
+				DD6D7421244BACEBB9BF7ABF /* [CP] Check Pods Manifest.lock */,
+				50FFE2D4244828000029133A /* Sources */,
+				50FFE2D5244828000029133A /* Frameworks */,
+				50FFE2D6244828000029133A /* Resources */,
+				F8EDC2B0C6F256CD77062E3F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mainPro;
+			productName = mainPro;
+			productReference = 50FFE2D8244828000029133A /* mainPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50FFE2F2244828020029133A /* mainProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FFE30A244828020029133A /* Build configuration list for PBXNativeTarget "mainProTests" */;
+			buildPhases = (
+				AC37C11522316C37503FE6AF /* [CP] Check Pods Manifest.lock */,
+				50FFE2EF244828020029133A /* Sources */,
+				50FFE2F0244828020029133A /* Frameworks */,
+				50FFE2F1244828020029133A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50FFE2F5244828020029133A /* PBXTargetDependency */,
+			);
+			name = mainProTests;
+			productName = mainProTests;
+			productReference = 50FFE2F3244828020029133A /* mainProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50FFE2FD244828020029133A /* mainProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FFE30D244828020029133A /* Build configuration list for PBXNativeTarget "mainProUITests" */;
+			buildPhases = (
+				5DF2A2CDBC08580C1BF2AEA5 /* [CP] Check Pods Manifest.lock */,
+				50FFE2FA244828020029133A /* Sources */,
+				50FFE2FB244828020029133A /* Frameworks */,
+				50FFE2FC244828020029133A /* Resources */,
+				DBA234A0A27C6AA79ADA9C87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50FFE300244828020029133A /* PBXTargetDependency */,
+			);
+			name = mainProUITests;
+			productName = mainProUITests;
+			productReference = 50FFE2FE244828020029133A /* mainProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50FFE2D0244827FF0029133A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = rtour;
+				TargetAttributes = {
+					50FFE2D7244828000029133A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					50FFE2F2244828020029133A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 50FFE2D7244828000029133A;
+					};
+					50FFE2FD244828020029133A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 50FFE2D7244828000029133A;
+					};
+				};
+			};
+			buildConfigurationList = 50FFE2D3244827FF0029133A /* Build configuration list for PBXProject "mainPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50FFE2CF244827FF0029133A;
+			productRefGroup = 50FFE2D9244828000029133A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50FFE2D7244828000029133A /* mainPro */,
+				50FFE2F2244828020029133A /* mainProTests */,
+				50FFE2FD244828020029133A /* mainProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50FFE2D6244828000029133A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FFE2EB244828020029133A /* LaunchScreen.storyboard in Resources */,
+				50FFE2E8244828020029133A /* Assets.xcassets in Resources */,
+				50544554244955720090E320 /* replace.json in Resources */,
+				50FFE2E6244828000029133A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FFE2F1244828020029133A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FFE2FC244828020029133A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DF2A2CDBC08580C1BF2AEA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mainPro-mainProUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC37C11522316C37503FE6AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mainProTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA234A0A27C6AA79ADA9C87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mainPro-mainProUITests/Pods-mainPro-mainProUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6D7421244BACEBB9BF7ABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mainPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8EDC2B0C6F256CD77062E3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mainPro/Pods-mainPro-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mainPro/Pods-mainPro-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mainPro/Pods-mainPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50FFE2D4244828000029133A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FFE2E3244828000029133A /* ViewController.m in Sources */,
+				50FFE2DD244828000029133A /* AppDelegate.m in Sources */,
+				50FFE2EE244828020029133A /* main.m in Sources */,
+				50544551244955200090E320 /* JHHttpMock.m in Sources */,
+				50FFE2E0244828000029133A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FFE2EF244828020029133A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FFE2F8244828020029133A /* mainProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FFE2FA244828020029133A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FFE303244828020029133A /* mainProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50FFE2F5244828020029133A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50FFE2D7244828000029133A /* mainPro */;
+			targetProxy = 50FFE2F4244828020029133A /* PBXContainerItemProxy */;
+		};
+		50FFE300244828020029133A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50FFE2D7244828000029133A /* mainPro */;
+			targetProxy = 50FFE2FF244828020029133A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50FFE2E4244828000029133A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FFE2E5244828000029133A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50FFE2E9244828020029133A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FFE2EA244828020029133A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50FFE305244828020029133A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50FFE306244828020029133A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50FFE308244828020029133A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7DDBC07CCA3F2547231072C /* Pods-mainPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mainPro/mainPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"JHArchiveDebug=1",
+				);
+				INFOPLIST_FILE = mainPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50FFE309244828020029133A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E86FC9FA102F62BC00E1AF /* Pods-mainPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mainPro/mainPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"JHArchiveRelease=1",
+				);
+				INFOPLIST_FILE = mainPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50FFE30B244828020029133A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B551982A59F274B9C0960A94 /* Pods-mainProTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mainPro.app/mainPro";
+			};
+			name = Debug;
+		};
+		50FFE30C244828020029133A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3966F6B0C82DDADA541F9D /* Pods-mainProTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mainPro.app/mainPro";
+			};
+			name = Release;
+		};
+		50FFE30E244828020029133A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227EECF7767BC29AF2751536 /* Pods-mainPro-mainProUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mainPro;
+			};
+			name = Debug;
+		};
+		50FFE30F244828020029133A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F14BC075A7AF077EE2D6E02 /* Pods-mainPro-mainProUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mainPro;
+			};
+			name = Release;
+		};
+		50FFE31024482C600029133A /* dev开发 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "dev开发";
+		};
+		50FFE31124482C600029133A /* dev开发 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A733D8FDB92BB82BBC96F3 /* Pods-mainPro.dev开发.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mainPro/mainPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"JHArchiveDev=1",
+				);
+				INFOPLIST_FILE = mainPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "dev开发";
+		};
+		50FFE31224482C600029133A /* dev开发 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A353F1DD5981998FA23BAA /* Pods-mainProTests.dev开发.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mainPro.app/mainPro";
+			};
+			name = "dev开发";
+		};
+		50FFE31324482C600029133A /* dev开发 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7926A5AC9D5A32FF48769599 /* Pods-mainPro-mainProUITests.dev开发.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mainPro;
+			};
+			name = "dev开发";
+		};
+		50FFE31424482C750029133A /* test质保 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "test质保";
+		};
+		50FFE31524482C750029133A /* test质保 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D00D8D5BF7EB872EBBD24E3 /* Pods-mainPro.test质保.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mainPro/mainPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"JHArchiveTest=1",
+				);
+				INFOPLIST_FILE = mainPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "test质保";
+		};
+		50FFE31624482C750029133A /* test质保 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A7326E58DEF1C8C6BD2258 /* Pods-mainProTests.test质保.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mainPro.app/mainPro";
+			};
+			name = "test质保";
+		};
+		50FFE31724482C750029133A /* test质保 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C34693A27808C526804E24 /* Pods-mainPro-mainProUITests.test质保.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mainPro;
+			};
+			name = "test质保";
+		};
+		50FFE31824482C960029133A /* prod正式内测 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "prod正式内测";
+		};
+		50FFE31924482C960029133A /* prod正式内测 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29E2CEBEFA567339ABDD6B0 /* Pods-mainPro.prod正式内测.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mainPro/mainPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"JHArchiveProd=1",
+				);
+				INFOPLIST_FILE = mainPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "prod正式内测";
+		};
+		50FFE31A24482C960029133A /* prod正式内测 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0613C49796B79EDF0B59E5F /* Pods-mainProTests.prod正式内测.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mainPro.app/mainPro";
+			};
+			name = "prod正式内测";
+		};
+		50FFE31B24482C960029133A /* prod正式内测 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1E73C875851C92EECB4149 /* Pods-mainPro-mainProUITests.prod正式内测.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mainPro;
+			};
+			name = "prod正式内测";
+		};
+		50FFE31C24482CAB0029133A /* pre预发布 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "pre预发布";
+		};
+		50FFE31D24482CAB0029133A /* pre预发布 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6053CEE45B23250A7A7C797 /* Pods-mainPro.pre预发布.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mainPro/mainPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"JHArchivePre=1",
+				);
+				INFOPLIST_FILE = mainPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "pre预发布";
+		};
+		50FFE31E24482CAB0029133A /* pre预发布 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5BC8E3A50BB72C47F3DCB7 /* Pods-mainProTests.pre预发布.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mainPro.app/mainPro";
+			};
+			name = "pre预发布";
+		};
+		50FFE31F24482CAB0029133A /* pre预发布 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046EFBD58EA9B0782B610C90 /* Pods-mainPro-mainProUITests.pre预发布.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mainPro;
+			};
+			name = "pre预发布";
+		};
+		50FFE32024482CB70029133A /* demo演示 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "demo演示";
+		};
+		50FFE32124482CB70029133A /* demo演示 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D6823112FE8802C599066A /* Pods-mainPro.demo演示.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mainPro/mainPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"JHArchiveDemo=1",
+				);
+				INFOPLIST_FILE = mainPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "demo演示";
+		};
+		50FFE32224482CB70029133A /* demo演示 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46D72DF7826DEBD514FD908 /* Pods-mainProTests.demo演示.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mainPro.app/mainPro";
+			};
+			name = "demo演示";
+		};
+		50FFE32324482CB70029133A /* demo演示 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0514AFF8E2DAB627A2AC8C88 /* Pods-mainPro-mainProUITests.demo演示.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mainPro;
+			};
+			name = "demo演示";
+		};
+		50FFE32424482CC40029133A /* InHouse */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = InHouse;
+		};
+		50FFE32524482CC40029133A /* InHouse */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38C7AAFA1690EE228E369A1 /* Pods-mainPro.inhouse.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mainPro/mainPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"JHArchiveInHouse=1",
+				);
+				INFOPLIST_FILE = mainPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = InHouse;
+		};
+		50FFE32624482CC40029133A /* InHouse */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1FED0EB94A8C9B57C7AFF0 /* Pods-mainProTests.inhouse.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mainPro.app/mainPro";
+			};
+			name = InHouse;
+		};
+		50FFE32724482CC40029133A /* InHouse */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA52D76B985FCF1244C12E1 /* Pods-mainPro-mainProUITests.inhouse.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mainPro;
+			};
+			name = InHouse;
+		};
+		50FFE32C24482CE60029133A /* Appstore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Appstore;
+		};
+		50FFE32D24482CE60029133A /* Appstore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5CE704FC67FD7D16A3914B /* Pods-mainPro.appstore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mainPro/mainPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"JHArchiveAppStore=1",
+				);
+				INFOPLIST_FILE = mainPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Appstore;
+		};
+		50FFE32E24482CE60029133A /* Appstore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A42F0DDE1CB864287326FF9 /* Pods-mainProTests.appstore.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mainPro.app/mainPro";
+			};
+			name = Appstore;
+		};
+		50FFE32F24482CE60029133A /* Appstore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C660276BF5C9884A9E352560 /* Pods-mainPro-mainProUITests.appstore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L42BY5MAX7;
+				INFOPLIST_FILE = mainProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.rtour.app.mainProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mainPro;
+			};
+			name = Appstore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50FFE2D3244827FF0029133A /* Build configuration list for PBXProject "mainPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FFE305244828020029133A /* Debug */,
+				50FFE32424482CC40029133A /* InHouse */,
+				50FFE32024482CB70029133A /* demo演示 */,
+				50FFE31C24482CAB0029133A /* pre预发布 */,
+				50FFE31824482C960029133A /* prod正式内测 */,
+				50FFE31424482C750029133A /* test质保 */,
+				50FFE31024482C600029133A /* dev开发 */,
+				50FFE306244828020029133A /* Release */,
+				50FFE32C24482CE60029133A /* Appstore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		50FFE307244828020029133A /* Build configuration list for PBXNativeTarget "mainPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FFE308244828020029133A /* Debug */,
+				50FFE32524482CC40029133A /* InHouse */,
+				50FFE32124482CB70029133A /* demo演示 */,
+				50FFE31D24482CAB0029133A /* pre预发布 */,
+				50FFE31924482C960029133A /* prod正式内测 */,
+				50FFE31524482C750029133A /* test质保 */,
+				50FFE31124482C600029133A /* dev开发 */,
+				50FFE309244828020029133A /* Release */,
+				50FFE32D24482CE60029133A /* Appstore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		50FFE30A244828020029133A /* Build configuration list for PBXNativeTarget "mainProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FFE30B244828020029133A /* Debug */,
+				50FFE32624482CC40029133A /* InHouse */,
+				50FFE32224482CB70029133A /* demo演示 */,
+				50FFE31E24482CAB0029133A /* pre预发布 */,
+				50FFE31A24482C960029133A /* prod正式内测 */,
+				50FFE31624482C750029133A /* test质保 */,
+				50FFE31224482C600029133A /* dev开发 */,
+				50FFE30C244828020029133A /* Release */,
+				50FFE32E24482CE60029133A /* Appstore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		50FFE30D244828020029133A /* Build configuration list for PBXNativeTarget "mainProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FFE30E244828020029133A /* Debug */,
+				50FFE32724482CC40029133A /* InHouse */,
+				50FFE32324482CB70029133A /* demo演示 */,
+				50FFE31F24482CAB0029133A /* pre预发布 */,
+				50FFE31B24482C960029133A /* prod正式内测 */,
+				50FFE31724482C750029133A /* test质保 */,
+				50FFE31324482C600029133A /* dev开发 */,
+				50FFE30F244828020029133A /* Release */,
+				50FFE32F24482CE60029133A /* Appstore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50FFE2D0244827FF0029133A /* Project object */;
+}

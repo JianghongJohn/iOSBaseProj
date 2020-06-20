@@ -1,0 +1,45 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+#install! 'cocoapods', :deterministic_uuids => false
+
+platform :ios, '9.0'
+#use_frameworks!
+
+project './mainPro.xcodeproj'
+target 'mainPro' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+  pod 'Bugly'
+  pod 'GYHttpMock', :git=>'https://github.com/Solve0/GYHttpMock.git', :tag => '1.0.1'
+  #本地仓库
+  pod 'JHCommon',:path=>'../JHCommon'
+  pod 'JHNetWorking',:path=>'../JHNetWorking'
+  # Pods for mainPro
+  #环境宏定义
+  #JHArchiveDebug
+  #JHArchiveRelease
+  #JHArchiveDev
+  #JHArchiveDemo
+  #JHArchivePre
+  #JHArchiveTest
+  #JHArchiveProd
+  #JHArchiveAppStore
+  #JHArchiveInHouse
+  
+  post_install do |installer|
+      installer.pods_project.targets.each do |target|
+          target.build_configurations.each do |config|
+              config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = '$(inherited) JHArchiveDebug=1 COCOAPODS=1'
+          end
+      end
+  end
+  target 'mainProTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'mainProUITests' do
+    # Pods for testing
+  end
+
+end
